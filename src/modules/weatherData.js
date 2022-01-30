@@ -1,24 +1,5 @@
 const title = document.querySelector('.title');
 
-// const getPosition = function () {
-//   return new Promise(function (resolve, reject) {
-//     navigator.geolocation.getCurrentPosition(resolve, reject);
-//   });
-// };
-
-// const location = async(() => {
-//   try {
-//     const position = await getPosition();
-//     const { latitude: lat, longitude: lng } = position.coords;
-
-//     const resGeo = await fetch(`https://geocode.xyz/${lat},${lng}?geoit=json`);
-//     const dataGeo = await resGeo.json();
-//     console.log(dataGeo);
-//   } catch (error) {
-//     console.error(err);
-//   }
-// });
-
 const weatherData = (() => {
   async function getWeatherData(city) {
     try {

@@ -17,7 +17,6 @@ const renderWeatherData = (() => {
       imgUrl = './images/light__snow.svg';
     }
 
-    // const title = document.querySelector('.title');
     const cardContainer = document.querySelector('.card__container');
     cardContainer.textContent = '';
 

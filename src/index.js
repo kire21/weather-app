@@ -6,7 +6,7 @@ const searchInput = document.querySelector('#search__input');
 const searchForm = document.querySelector('#search__form');
 const locationBtn = document.querySelector('#location__btn');
 
-// Serach City
+// Search City
 
 searchForm.addEventListener('submit', (e) => {
   e.preventDefault();
