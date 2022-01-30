@@ -29,11 +29,6 @@ body {
   background-image: url(./images/background__photo.png);
   background-repeat: no-repeat;
   background-size: cover;
-
-  /* display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column; */
 }
 
 header {
@@ -63,7 +58,7 @@ header {
 
 .btn {
   width: 100%;
-  margin: 1rem 0 3rem 0;
+  margin: 1rem 0 0.25rem 0;
   padding: 1rem 2rem;
   border: none;
   border-radius: 5px;
@@ -79,8 +74,7 @@ header {
 }
 
 .card__container {
-  /* display: flex; */
-  /* font-size: 2rem; */
+  margin: 2rem 0;
   opacity: 1;
   transition: opacity 1s;
 }
@@ -91,7 +85,6 @@ header {
   font-size: 1.8rem;
   width: 30rem;
   border-radius: 0.7rem;
-  margin: 0 3rem;
 }
 
 .card__img {
@@ -135,31 +128,4 @@ header {
 
 .icon__img {
   max-width: 3.5rem;
-}
-
-.btn-card {
-  border: none;
-  font-size: 2rem;
-  padding: 2rem 5rem;
-  border-radius: 0.7rem;
-  color: white;
-  background-color: orangered;
-  cursor: pointer;
-}
-
-.images {
-  display: flex;
-}
-
-.images img {
-  display: block;
-  width: 80rem;
-  margin: 4rem;
-}
-
-.images img.parallel {
-  width: 40rem;
-  margin: 2rem;
-  border: 3rem solid white;
-  /* box-shadow: 0 2rem 5rem 1rem rgba(0, 0, 0, 0.1); */
 }
